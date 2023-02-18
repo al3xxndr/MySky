@@ -1,0 +1,121 @@
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: set a fixed height to center vertically */
+  }
+.infobody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.enterinput {
+    display: flex;
+    flex-direction: column; /* no longer left aligned and takes up all spaces*/
+    align-items: center;
+  }
+  p {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.formclass label,
+.formclass input,
+.formclass button {
+  margin: 0 0.5rem;
+}
+
+/* some design */
+/* Colors */
+:root {
+    --bg-color: #f2f2f2;
+    --accent-color: #007aff;
+    --text-color: #333;
+  }
+  
+  /* Fonts */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  
+  /* Layout */
+  .maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+  }
+  
+  .centerdiv {
+    max-width: 640px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .enterinput {
+    margin-bottom: 2rem;
+  }
+  
+  .formclass {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formclass label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .formclass input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: var(--bg-color);
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+  }
+  
+  .formclass button {
+    padding: 0.5rem 1rem;
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .formclass button:hover {
+    background-color: #0062cc;
+  }
+  
+  .details {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  
+  .details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .details p {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .details p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+
+  
+  
